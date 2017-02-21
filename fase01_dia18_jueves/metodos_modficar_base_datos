@@ -1,0 +1,95 @@
+Last login: Fri Feb 17 13:07:02 on ttys000
+CodeaCamp09s-Mac-mini:~ codea_mac_09$ cd Desktop
+CodeaCamp09s-Mac-mini:Desktop codea_mac_09$ cd /Users/codea_mac_09/Desktop/fase01/fase01_dia16_jueves/to_dos 
+CodeaCamp09s-Mac-mini:to_dos codea_mac_09$ ruby todo.rb
+/Users/codea_mac_09/Desktop/fase01/fase01_dia16_jueves/to_dos/app/controllers/tasks_controller.rb:8:in `menu': undefined method `join' for nil:NilClass (NoMethodError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia16_jueves/to_dos/app/controllers/tasks_controller.rb:4:in `initialize'
+	from todo.rb:3:in `new'
+	from todo.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:to_dos codea_mac_09$ ruby todo.rb index
+1. [x] Llenar registros
+2. [ ] Consultar documentació Active Record
+3. [x] Consultar Active Queries
+4. [ ] ¿Qué son métodos de active?
+5. [x] Ejecutar rake db:drop 
+6. [x] Ejecutar rake db:create 
+7. [x] Ejecutar rake db:migrate 
+8. [x] Ejecutar rake db:seed 
+9. [ ] Ejecutar rake console
+10. [ ] Completar ejercicio
+11. [x] Soy el ultimo
+CodeaCamp09s-Mac-mini:to_dos codea_mac_09$ ruby todo.rb add soy la tarea doce
+"Agregaste la tarea: soy la tarea doce a tu lista."
+CodeaCamp09s-Mac-mini:to_dos codea_mac_09$  ruby todo.rb index
+1. [x] Llenar registros
+2. [ ] Consultar documentació Active Record
+3. [x] Consultar Active Queries
+4. [ ] ¿Qué son métodos de active?
+5. [x] Ejecutar rake db:drop 
+6. [x] Ejecutar rake db:create 
+7. [x] Ejecutar rake db:migrate 
+8. [x] Ejecutar rake db:seed 
+9. [ ] Ejecutar rake console
+10. [ ] Completar ejercicio
+11. [x] Soy el ultimo
+12. [ ] soy la tarea doce
+CodeaCamp09s-Mac-mini:to_dos codea_mac_09$  ruby todo.rb add soy la tarea trece
+"Agregaste la tarea: soy la tarea trece a tu lista."
+CodeaCamp09s-Mac-mini:to_dos codea_mac_09$ ruby todo.rb index
+1. [x] Llenar registros
+2. [ ] Consultar documentació Active Record
+3. [x] Consultar Active Queries
+4. [ ] ¿Qué son métodos de active?
+5. [x] Ejecutar rake db:drop 
+6. [x] Ejecutar rake db:create 
+7. [x] Ejecutar rake db:migrate 
+8. [x] Ejecutar rake db:seed 
+9. [ ] Ejecutar rake console
+10. [ ] Completar ejercicio
+11. [x] Soy el ultimo
+12. [ ] soy la tarea doce
+13. [ ] soy la tarea trece
+CodeaCamp09s-Mac-mini:to_dos codea_mac_09$ ruby todo.rb delete 13
+"Eliminaste la tarea: 13 de tu lista."
+CodeaCamp09s-Mac-mini:to_dos codea_mac_09$ ruby todo.rb index
+1. [x] Llenar registros
+2. [ ] Consultar documentació Active Record
+3. [x] Consultar Active Queries
+4. [ ] ¿Qué son métodos de active?
+5. [x] Ejecutar rake db:drop 
+6. [x] Ejecutar rake db:create 
+7. [x] Ejecutar rake db:migrate 
+8. [x] Ejecutar rake db:seed 
+9. [ ] Ejecutar rake console
+10. [ ] Completar ejercicio
+11. [x] Soy el ultimo
+12. [ ] soy la tarea doce
+CodeaCamp09s-Mac-mini:to_dos codea_mac_09$ ruby todo.rb complete
+CodeaCamp09s-Mac-mini:to_dos codea_mac_09$ ruby todo.rb index
+1. [x] Llenar registros
+2. [ ] Consultar documentació Active Record
+3. [x] Consultar Active Queries
+4. [ ] ¿Qué son métodos de active?
+5. [x] Ejecutar rake db:drop 
+6. [x] Ejecutar rake db:create 
+7. [x] Ejecutar rake db:migrate 
+8. [x] Ejecutar rake db:seed 
+9. [ ] Ejecutar rake console
+10. [ ] Completar ejercicio
+11. [x] Soy el ultimo
+12. [ ] soy la tarea doce
+CodeaCamp09s-Mac-mini:to_dos codea_mac_09$ ruby todo.rb complete 12
+CodeaCamp09s-Mac-mini:to_dos codea_mac_09$ ruby todo.rb index
+1. [x] Llenar registros
+2. [ ] Consultar documentació Active Record
+3. [x] Consultar Active Queries
+4. [ ] ¿Qué son métodos de active?
+5. [x] Ejecutar rake db:drop 
+6. [x] Ejecutar rake db:create 
+7. [x] Ejecutar rake db:migrate 
+8. [x] Ejecutar rake db:seed 
+9. [ ] Ejecutar rake console
+10. [ ] Completar ejercicio
+11. [x] Soy el ultimo
+12. [x] soy la tarea doce
+CodeaCamp09s-Mac-mini:to_dos codea_mac_09$ 

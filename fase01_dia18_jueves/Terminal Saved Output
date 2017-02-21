@@ -1,0 +1,1504 @@
+Last login: Mon Feb 20 09:53:31 on ttys000
+rCodeaCamp09s-Mac-mini:~ codea_mac_09$ cd Desktop
+CodeaCamp09s-Mac-mini:Desktop codea_mac_09$ cd /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight 
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ls
+Gemfile		Rakefile	config		flight.rb
+Gemfile.lock	app		db		spec
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ bundle
+Warning: the running version of Bundler is older than the version that created the lockfile. We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+Fetching gem metadata from https://rubygems.org/.........
+Fetching version metadata from https://rubygems.org/..
+Installing concurrent-ruby 1.0.2
+Using i18n 0.7.0
+Installing minitest 5.9.1
+Using thread_safe 0.3.5
+Using arel 7.1.4
+Installing sqlite3 1.3.12 with native extensions
+Using bundler 1.11.2
+Using tzinfo 1.2.2
+Installing activesupport 5.0.0.1
+Installing activemodel 5.0.0.1
+Installing activerecord 5.0.0.1
+Bundle complete! 2 Gemfile dependencies, 11 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ gem install rake
+Successfully installed rake-12.0.0
+Parsing documentation for rake-12.0.0
+Done installing documentation for rake after 1 seconds
+1 gem installed
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flght.rb
+ruby: No such file or directory -- flght.rb (LoadError)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ gem install rake
+Successfully installed rake-12.0.0
+Parsing documentation for rake-12.0.0
+Done installing documentation for rake after 0 seconds
+1 gem installed
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flght.rb index
+ruby: No such file or directory -- flght.rb (LoadError)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby fligth.rb
+ruby: No such file or directory -- fligth.rb (LoadError)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ 1
+-bash: 1: command not found
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:32: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:32: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:32: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:32: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:32: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:32: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:32: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:33: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:33: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize': undefined method `menu' for #<Controller:0x007fa5668c8030 @view=#<View:0x007fa5668c9340>> (NoMethodError)
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ index
+-bash: index: command not found
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:5:in `index': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:20:in `index'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:12:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:5:in `index': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:20:in `index'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:12:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:5:in `index': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:20:in `index'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:12:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:21:in `index': undefined local variable or method `selection' for #<Controller:0x007fe69d15b3b0 @view=#<View:0x007fe69d15b388>> (NameError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:12:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:21:in `index': undefined local variable or method `selection' for #<Controller:0x007f9bf48b1fe0 @view=#<View:0x007f9bf48b1fb8>> (NameError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:12:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index 1
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index 1
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index 1
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:7:in `index': undefined method `put' for #<View:0x007f9823251c38> (NoMethodError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:21:in `index'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:12:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index 1
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:7:in `index': undefined method `put' for #<View:0x007f88b62e8ab0> (NoMethodError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:21:in `index'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:12:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index 1
+index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ 1
+-bash: 1: command not found
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb 1
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:10:in `+': no implicit conversion of nil into String (TypeError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:10:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:10:in `+': no implicit conversion of nil into String (TypeError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:10:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:10:in `menu': undefined method `to_string' for nil:NilClass (NoMethodError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb 1
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb 1
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb 1
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb 1
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb 1
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:create
+rake aborted!
+SyntaxError: /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:57: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative'
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:3:in `require_relative'
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:3:in `<top (required)>'
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:create
+touch db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:migrate
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:seed
+rake aborted!
+SyntaxError: /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/seeds.rb:3: syntax error, unexpected tIDENTIFIER, expecting ')'
+...rabia', duration:'7:00:00' cost:'829.50' passengers:'8')
+...                               ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:24:in `require_relative'
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:24:in `block in <top (required)>'
+Tasks: TOP => db:seed
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:seed
+rake aborted!
+ActiveModel::UnknownAttributeError: unknown attribute 'num_flight' for Flight.
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/seeds.rb:3:in `<top (required)>'
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:24:in `require_relative'
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:24:in `block in <top (required)>'
+Tasks: TOP => db:seed
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:drop
+rm -f db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:create
+touch db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:migrate
+rake aborted!
+SyntaxError: /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:29: syntax error, unexpected keyword_false, expecting keyword_do or '{' or '('
+    create_table :users_booking, id false do |t|
+                                         ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:30: syntax error, unexpected tSYMBEG, expecting keyword_end
+      t.belongs_to :user
+                    ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:34: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    create_table :users_flight id false do |t|
+                                 ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:40: syntax error, unexpected keyword_end, expecting end-of-input
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:19:in `block in <top (required)>'
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:migrate
+rake aborted!
+SyntaxError: /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:29: syntax error, unexpected keyword_false, expecting keyword_do or '{' or '('
+    create_table :users_booking, id false do |t|
+                                         ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:30: syntax error, unexpected tSYMBEG, expecting keyword_end
+      t.belongs_to :users
+                    ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:34: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    create_table :users_flight id false do |t|
+                                 ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:40: syntax error, unexpected keyword_end, expecting end-of-input
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:19:in `block in <top (required)>'
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:migrate
+rake aborted!
+SyntaxError: /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:29: syntax error, unexpected keyword_false, expecting keyword_do or '{' or '('
+    create_table :users_booking, id false do |t|
+                                         ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:30: syntax error, unexpected tSYMBEG, expecting keyword_end
+      t.belongs_to :users
+                    ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:34: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    create_table :users_flight id false do |t|
+                                 ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:40: syntax error, unexpected keyword_end, expecting end-of-input
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:19:in `block in <top (required)>'
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:migrate
+rake aborted!
+SyntaxError: /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:29: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+    create_table :users_booking, id :false do |t|
+                                     ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:30: syntax error, unexpected tSYMBEG, expecting keyword_end
+      t.belongs_to :user
+                    ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:34: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    create_table :users_flight id :false do |t|
+                                 ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:35: syntax error, unexpected tSYMBEG, expecting keyword_end
+      t.belongs_to :user
+                    ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:39: syntax error, unexpected keyword_end, expecting end-of-input
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:19:in `block in <top (required)>'
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db_drop
+rake aborted!
+Don't know how to build task 'db_drop' (see --tasks)
+
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:drop
+rm -f db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:create
+touch db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db migrate
+rake aborted!
+Don't know how to build task 'migrate' (see --tasks)
+
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:migrate
+rake aborted!
+SyntaxError: /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:29: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+    create_table :users_booking, id :false do |t|
+                                     ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:30: syntax error, unexpected tSYMBEG, expecting keyword_end
+      t.belongs_to :user
+                    ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:34: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    create_table :users_flight id :false do |t|
+                                 ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:35: syntax error, unexpected tSYMBEG, expecting keyword_end
+      t.belongs_to :user
+                    ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:39: syntax error, unexpected keyword_end, expecting end-of-input
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:19:in `block in <top (required)>'
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:migrate
+rake aborted!
+SyntaxError: /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:29: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+    create_table :users_booking, id :false do |t|
+                                     ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:30: syntax error, unexpected tSYMBEG, expecting keyword_end
+      t.belongs_to :user
+                    ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:34: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+    create_table :users_flight, id :false do |t|
+                                    ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:35: syntax error, unexpected tSYMBEG, expecting keyword_end
+      t.belongs_to :user
+                    ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:40: syntax error, unexpected keyword_end, expecting end-of-input
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:19:in `block in <top (required)>'
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:migrate
+rake aborted!
+SyntaxError: /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/db/migrate/20121011144238_create_flights.rb:40: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:19:in `block in <top (required)>'
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:migrate
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class CreateFlights < ActiveRecord::Migration[4.2] (called from block in <top (required)> at /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:19)
+== 20121011144238 CreateFlights: migrating ====================================
+-- create_table(:flights, {})
+   -> 0.0091s
+-- create_table(:users, {})
+   -> 0.0004s
+-- create_table(:bookings, {})
+   -> 0.0003s
+-- create_table(:users_booking, {:id=>false})
+   -> 0.0003s
+-- create_table(:users_flight, {:id=>false})
+   -> 0.0003s
+== 20121011144238 CreateFlights: migrated (0.0108s) ===========================
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake console
+irb(main):001:0> clear
+NameError: undefined local variable or method `clear' for main:Object
+	from (irb):1
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/bin/irb:11:in `<main>'
+irb(main):002:0> exi
+NameError: undefined local variable or method `exi' for main:Object
+	from (irb):2
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/bin/irb:11:in `<main>'
+irb(main):003:0> exit
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ clear
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake console
+irb(main):001:0> flights = Flight.all
+=> #<ActiveRecord::Relation []>
+irb(main):002:0> exit
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:seed
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake cosole
+rake aborted!
+Don't know how to build task 'cosole' (see --tasks)
+
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake console
+irb(main):001:0> flights = Flight.all
+=> #<ActiveRecord::Relation [#<Flight id: 1, bookings_id: nil, num_flight: 96384, date: "2015-06-15", depart: nil, from: "Western Sahara", to: "Saudi Arabia", duration: "2000-01-01 07:00:00", cost: 829.5, passengers: 8>, #<Flight id: 2, bookings_id: nil, num_flight: 35472, date: "2015-06-15", depart: nil, from: "Western Sahara", to: "Saudi Arabia", duration: "2000-01-01 07:00:00", cost: 748.45, passengers: 10>, #<Flight id: 3, bookings_id: nil, num_flight: 63669, date: "2015-06-15", depart: nil, from: "Western Sahara", to: "Saudi Arabia", duration: "2000-01-01 07:00:00", cost: 4434.0, passengers: 23>]>
+irb(main):002:0> users = User.all
+=> #<ActiveRecord::Relation []>
+irb(main):003:0> bookings = Booking.all
+=> #<ActiveRecord::Relation []>
+irb(main):004:0> users_booking = UserBooking.all
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such table: user_bookings: SELECT "user_bookings".* FROM "user_bookings"
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `initialize'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `new'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `prepare'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:209:in `block in exec_query'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activesupport-5.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:193:in `exec_query'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:377:in `select_prepared'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:39:in `select_all'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/query_cache.rb:95:in `select_all'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/querying.rb:39:in `find_by_sql'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:702:in `exec_queries'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:583:in `load'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:260:in `records'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:686:in `inspect'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/bin/irb:11:in `<main>'irb(main):005:0> users_flight = UserFlight.all
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such table: user_flights: SELECT "user_flights".* FROM "user_flights"
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `initialize'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `new'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `prepare'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:209:in `block in exec_query'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activesupport-5.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:193:in `exec_query'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:377:in `select_prepared'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:39:in `select_all'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/query_cache.rb:95:in `select_all'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/querying.rb:39:in `find_by_sql'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:702:in `exec_queries'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:583:in `load'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:260:in `records'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:686:in `inspect'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/bin/irb:11:in `<main>'irb(main):006:0> users_flight = UserFlight.all
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such table: user_flights: SELECT "user_flights".* FROM "user_flights"
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `initialize'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `new'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `prepare'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:209:in `block in exec_query'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activesupport-5.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:193:in `exec_query'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:377:in `select_prepared'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:39:in `select_all'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/query_cache.rb:95:in `select_all'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/querying.rb:39:in `find_by_sql'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:702:in `exec_queries'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:583:in `load'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:260:in `records'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:686:in `inspect'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/bin/irb:11:in `<main>'irb(main):007:0> clear
+NameError: undefined local variable or method `clear' for main:Object
+	from (irb):7
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/bin/irb:11:in `<main>'
+irb(main):008:0> users_flight = UserFlight.all
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such table: user_flights: SELECT "user_flights".* FROM "user_flights"
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `initialize'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `new'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `prepare'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:209:in `block in exec_query'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activesupport-5.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:193:in `exec_query'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:377:in `select_prepared'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:39:in `select_all'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/query_cache.rb:95:in `select_all'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/querying.rb:39:in `find_by_sql'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:702:in `exec_queries'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:583:in `load'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:260:in `records'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation.rb:686:in `inspect'
+irb(main):009:0> 
+irb(main):010:0* clear
+NameError: undefined local variable or method `clear' for main:Object
+	from (irb):10
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/bin/irb:11:in `<main>'
+irb(main):011:0> exit
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ clear
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:drop
+
+
+
+
+
+
+rm -f db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ 
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ 
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ 
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ 
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ 
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ 
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:create
+touch db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:migrate
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class CreateFlights < ActiveRecord::Migration[4.2] (called from block in <top (required)> at /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:19)
+== 20121011144238 CreateFlights: migrating ====================================
+-- create_table(:flights, {})
+   -> 0.0015s
+-- create_table(:users, {})
+   -> 0.0003s
+-- create_table(:bookings, {})
+   -> 0.0004s
+-- create_table(:users_booking, {:id=>false})
+   -> 0.0003s
+-- create_table(:users_flight, {:id=>false})
+   -> 0.0003s
+== 20121011144238 CreateFlights: migrated (0.0194s) ===========================
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:seed
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:drop
+rm -f db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db create
+rake aborted!
+Don't know how to build task 'create' (see --tasks)
+
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ clear
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:create
+touch db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:migrate
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class CreateFlights < ActiveRecord::Migration[4.2] (called from block in <top (required)> at /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/Rakefile:19)
+== 20121011144238 CreateFlights: migrating ====================================
+-- create_table(:flights, {})
+   -> 0.0013s
+-- create_table(:users, {})
+   -> 0.0004s
+-- create_table(:bookings, {})
+   -> 0.0004s
+-- create_table(:users_booking, {:id=>false})
+   -> 0.0003s
+-- create_table(:users_flight, {:id=>false})
+   -> 0.0003s
+== 20121011144238 CreateFlights: migrated (0.0030s) ===========================
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake db:seed
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ rake console
+irb(main):001:0> flights = Flight.all
+=> #<ActiveRecord::Relation [#<Flight id: 1, bookings_id: nil, num_flight: 96384, date: "2015-06-15", depart: nil, from: "Western Sahara", to: "Saudi Arabia", duration: "2000-01-01 07:00:00", cost: 829.5, passengers: 8>, #<Flight id: 2, bookings_id: nil, num_flight: 35472, date: "2015-06-15", depart: nil, from: "Western Sahara", to: "Saudi Arabia", duration: "2000-01-01 07:00:00", cost: 748.45, passengers: 10>, #<Flight id: 3, bookings_id: nil, num_flight: 63669, date: "2015-06-15", depart: nil, from: "Western Sahara", to: "Saudi Arabia", duration: "2000-01-01 07:00:00", cost: 4434.0, passengers: 23>]>
+irb(main):002:0> users = User.all
+=> #<ActiveRecord::Relation [#<User id: 1, name: "Betzabe", email: "bek@gmail.com", admin: "x", password: "123">, #<User id: 2, name: "Ivan", email: "ivan@gmail.com", admin: " ", password: "">]>
+irb(main):003:0> bookings = Booking.all
+=> #<ActiveRecord::Relation [#<Booking id: 1, num_booking: 1, total: 1, flight_id: 1701>]>
+irb(main):004:0> exit
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ clear
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:63: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+"2"
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+"2"
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+Bienvenido Administrador
+--------------------------------------------------
+Ingrese usuario:
+Ingrese contraseña:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+Bienvenido Administrador
+--------------------------------------------------
+Ingrese usuario:
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:50:in `selected': undefined local variable or method `users' for #<View:0x007fb18c7dbe10> (NameError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:26:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:69: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+Bienvenido Administrador
+--------------------------------------------------
+Ingrese usuario:
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:50:in `selected': undefined local variable or method `users' for #<View:0x007f83e41c1348> (NameError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:26:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:44:in `selected': wrong number of arguments (1 for 2) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:26:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+Bienvenido Administrador
+--------------------------------------------------
+Ingrese usuario:
+Ingrese contraseña:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:74: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:74: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:74: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:74: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+Bienvenido Administrador
+--------------------------------------------------
+Ingrese usuario:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+Bienvenido Administrador
+--------------------------------------------------
+Ingrese usuario:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ Betzabe
+-bash: Betzabe: command not found
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:51: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:51: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:51: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:51: syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+Bienvenido Administrador
+--------------------------------------------------
+Ingrese usuario:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+Ingrese contraseña:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+Ingrese contraseña:
+Ingrese contraseña:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+Bienvenido Administrador
+--------------------------------------------------
+Ingrese usuario:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+Ingrese contraseña:
+Ingrese contraseña:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+Ingrese contraseña:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:4:in `initialize': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:3:in `new'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:3:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:2:in `initialize': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:5:in `new'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:5:in `initialize'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:3:in `new'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:3:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+Ingrese contraseña:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+Bienvenido Administrador
+--------------------------------------------------
+1) Muestra todos los vuelos
+2) Muestra todas las reservaciones
+3) Crea un nuevo vuelo
+4) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+Bienvenido Administrador
+--------------------------------------------------
+Ingrese usuario:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ Betzabe
+-bash: Betzabe: command not found
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+Ingrese contraseña:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ 123
+-bash: 123: command not found
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+Bienvenido Administrador
+--------------------------------------------------
+1) Muestra todos los vuelos
+2) Muestra todas las reservaciones
+3) Crea un nuevo vuelo
+4) Salir
+Selecciona opción:
+Bienvenido Administrador
+--------------------------------------------------
+1) Muestra todos los vuelos
+2) Muestra todas las reservaciones
+3) Crea un nuevo vuelo
+4) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby fligth.rb selected Betzabe
+ruby: No such file or directory -- fligth.rb (LoadError)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+Ingrese contraseña:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ 123
+-bash: 123: command not found
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+Ingrese contraseña:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+Bienvenido Administrador
+--------------------------------------------------
+1) Muestra todos los vuelos
+2) Muestra todas las reservaciones
+3) Crea un nuevo vuelo
+4) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+Consejo: Para seleccionar tu opción escribe 'ruby flights.rb select (numero del menu)':
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby ruby flights.rb select 2
+ruby: No such file or directory -- ruby (LoadError)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+Consejo: Para seleccionar tu opción escribe 'ruby flights.rb selected (numero del menu)':
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+Bienvenido Administrador
+--------------------------------------------------
+Ingrese usuario:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+Bienvenido Administrador
+--------------------------------------------------
+Ingrese usuario:Consejo: escribe 'ruby flights.rb selected (nombre)':
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+Bienvenido Administrador
+--------------------------------------------------
+Ingrese usuario:
+Consejo: escribe 'ruby flights.rb selected (nombre)':
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flights.rb selected Betzabe
+ruby: No such file or directory -- flights.rb (LoadError)
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+Bienvenido Administrador
+--------------------------------------------------
+Ingrese usuario:
+Consejo: escribe 'ruby flights.rb selected (nombre)':
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
+Bienvenido Administrador
+--------------------------------------------------
+Ingrese usuario:
+Consejo: escribe 'ruby flight.rb selected (nombre)':
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+Ingrese contraseña:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+Ingrese contraseña:
+Consejo: escribe 'ruby flight.rb selected (contraseña)':
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ 123
+-bash: 123: command not found
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+Ingrese contraseña:
+Consejo: escribe 'ruby flight.rb selected (contraseña)':
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+Bienvenido Administrador
+--------------------------------------------------
+1) Muestra todos los vuelos
+2) Muestra todas las reservaciones
+3) Crea un nuevo vuelo
+4) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+Bienvenido Administrador
+--------------------------------------------------
+1) Muestra todos los vuelos
+2) Muestra todas las reservaciones
+3) Crea un nuevo vuelo
+4) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+Bienvenido Administrador
+--------------------------------------------------
+1) Muestra todos los vuelos
+2) Muestra todas las reservaciones
+3) Crea un nuevo vuelo
+4) Salir
+Selecciona opción:
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected Betzabe
+Ingrese contraseña:
+
+Consejo: escribe 'ruby flight.rb selected (contraseña)':
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+Bienvenido Administrador
+--------------------------------------------------
+1) Muestra todos los vuelos
+2) Muestra todas las reservaciones
+3) Crea un nuevo vuelo
+4) Salir
+
+Selecciona opción:
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:37:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:29:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:27:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:38:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:38:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:38:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:36:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:36:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+^[[ABienvenido Administrador
+--------------------------------------------------
+1) Muestra todos los vuelos
+2) Muestra todas las reservaciones
+3) Crea un nuevo vuelo
+4) Salir
+
+Selecciona opción:
+
+Consejo: escribe 'ruby flight.rb selected (contraseña)':
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+Bienvenido Administrador
+--------------------------------------------------
+1) Muestra todos los vuelos
+2) Muestra todas las reservaciones
+3) Crea un nuevo vuelo
+4) Salir
+
+Selecciona opción:
+
+Consejo: escribe 'ruby flight.rb selected (contraseña)':
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+Bienvenido Administrador
+--------------------------------------------------
+1) Muestra todos los vuelos
+2) Muestra todas las reservaciones
+3) Crea un nuevo vuelo
+4) Salir
+
+Selecciona opción:
+
+Consejo: escribe 'ruby flight.rb selected (contraseña)':
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+Bienvenido Administrador
+--------------------------------------------------
+1) Muestra todos los vuelos
+2) Muestra todas las reservaciones
+3) Crea un nuevo vuelo
+4) Salir
+
+Selecciona opción:
+
+Consejo: escribe 'ruby flight.rb selected (contraseña)':
+
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:39:in `administrator_menu': undefined local variable or method `selection' for #<Controller:0x007fb7e7062880 @view=#<View:0x007fb7e7062858>> (NameError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:49:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:37:in `administrator_menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:36:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:36:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:36:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:36:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:36:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:36:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:36:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:36:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:36:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:36:in `administrator_menu': wrong number of arguments (0 for 1) (ArgumentError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:30:in `block in selected'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:28:in `selected'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:13:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+Bienvenido Administrador
+--------------------------------------------------
+1) Muestra todos los vuelos
+2) Muestra todas las reservaciones
+3) Crea un nuevo vuelo
+4) Salir
+
+Selecciona opción:
+
+Consejo: escribe 'ruby flight.rb selected (contraseña)':
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+Bienvenido Administrador
+--------------------------------------------------
+1) Muestra todos los vuelos
+2) Muestra todas las reservaciones
+3) Crea un nuevo vuelo
+4) Salir
+
+Selecciona opción:
+
+Consejo: escribe 'ruby flight.rb selected (contraseña)':
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+#<ActiveRecord::Relation [#<Flight id: 1, bookings_id: nil, num_flight: 96384, date: "2015-06-15", depart: nil, from: "Western Sahara", to: "Saudi Arabia", duration: "2000-01-01 07:00:00", cost: 829.5, passengers: 8>, #<Flight id: 2, bookings_id: nil, num_flight: 35472, date: "2015-06-15", depart: nil, from: "Western Sahara", to: "Saudi Arabia", duration: "2000-01-01 07:00:00", cost: 748.45, passengers: 10>, #<Flight id: 3, bookings_id: nil, num_flight: 63669, date: "2015-06-15", depart: nil, from: "Western Sahara", to: "Saudi Arabia", duration: "2000-01-01 07:00:00", cost: 4434.0, passengers: 23>]>
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+#<Flight:0x007f7f997c5f40>
+#<Flight:0x007f7f997b7ad0>
+#<Flight:0x007f7f997b7710>
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+#<Flight::ActiveRecord_Relation:0x007f80a7120730>CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+#<ActiveRecord::Relation [#<Flight id: 1, bookings_id: nil, num_flight: 96384, date: "2015-06-15", depart: nil, from: "Western Sahara", to: "Saudi Arabia", duration: "2000-01-01 07:00:00", cost: 829.5, passengers: 8>, #<Flight id: 2, bookings_id: nil, num_flight: 35472, date: "2015-06-15", depart: nil, from: "Western Sahara", to: "Saudi Arabia", duration: "2000-01-01 07:00:00", cost: 748.45, passengers: 10>, #<Flight id: 3, bookings_id: nil, num_flight: 63669, date: "2015-06-15", depart: nil, from: "Western Sahara", to: "Saudi Arabia", duration: "2000-01-01 07:00:00", cost: 4434.0, passengers: 23>]>
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:99: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+/Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:123:in `method_missing': undefined method `ach' for #<Flight::ActiveRecord_Relation:0x007fc91cf7b808> (NoMethodError)
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:93:in `method_missing'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:74:in `all'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:42:in `all'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:15:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+96384 | 2015-06-15
+35472 | 2015-06-15
+63669 | 2015-06-15
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:75:in `block in all': undefined method `|' for :num_flight:Symbol (NoMethodError)
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:74:in `all'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:42:in `all'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:15:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:74:in `all': undefined method `|' for :num_flight:Symbol (NoMethodError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:42:in `all'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:15:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:74:in `all': undefined local variable or method `flight' for #<View:0x007f93d4d2eeb0> (NameError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:42:in `all'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:15:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+/Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:123:in `method_missing': undefined method `num_flight' for #<Flight::ActiveRecord_Relation:0x007ff911143f18> (NoMethodError)
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:93:in `method_missing'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:74:in `all'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:42:in `all'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:15:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ sqlite3 db/tasks.sqlite3
+-- Loading resources from /Users/codea_mac_09/.sqliterc
+
+SQLite version 3.8.5 2014-08-15 22:37:57
+Enter ".help" for usage hints.
+sqlite> SELECT * FROM flights
+   ...> ;
+id          bookings_id  num_flight  date        depart      from            to            duration             cost        passengers
+----------  -----------  ----------  ----------  ----------  --------------  ------------  -------------------  ----------  ----------
+1                        96384       2015-06-15              Western Sahara  Saudi Arabia  2000-01-01 07:00:00  829.5       8         
+2                        35472       2015-06-15              Western Sahara  Saudi Arabia  2000-01-01 07:00:00  748.45      10        
+3                        63669       2015-06-15              Western Sahara  Saudi Arabia  2000-01-01 07:00:00  4434.0      23        
+sqlite> SELEC * FROM users
+   ...> ;
+Error: near "SELEC": syntax error
+sqlite> SELECT * FROM users
+   ...> ;
+id          name        email          admin       password  
+----------  ----------  -------------  ----------  ----------
+1           Betzabe     bek@gmail.com  x           123       
+2           Ivan        ivan@gmail.co                        
+sqlite> SELECT * FROM bookings
+   ...> ;
+id          num_booking  total       flight_id 
+----------  -----------  ----------  ----------
+1           1            1           1701      
+sqlite> SELEC * FROM users_booking
+   ...> ;
+Error: near "SELEC": syntax error
+sqlite> SELECT * FROM users_booking
+   ...> ;
+sqlite> ^D
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ 
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ CLEAR
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+96384 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 829.5 | 8
+35472 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 748.45 | 10
+63669 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 4434.0 | 23
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+/Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activemodel-5.0.1/lib/active_model/attribute_methods.rb:433:in `method_missing': undefined method `bookings' for #<Flight:0x007fab315b0930> (NoMethodError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:77:in `block in all'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/relation/delegation.rb:38:in `each'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:75:in `all'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:42:in `all'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:15:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+96384 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 829.5 | 8
+35472 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 748.45 | 10
+63669 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 4434.0 | 23
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all
+96384 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 829.5 | 8
+35472 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 748.45 | 10
+63669 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 4434.0 | 23
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all 1
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:76: syntax error, unexpected keyword_elsif, expecting keyword_end (SyntaxError)
+    elsif selection == "2"
+         ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:102: syntax error, unexpected end-of-input, expecting keyword_end
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all 
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:76: syntax error, unexpected keyword_elsif, expecting keyword_end (SyntaxError)
+    elsif selection == "2"
+         ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:102: syntax error, unexpected end-of-input, expecting keyword_end
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all 
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:76: syntax error, unexpected keyword_elsif, expecting keyword_end (SyntaxError)
+    elsif selection == "2"
+         ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:102: syntax error, unexpected end-of-input, expecting keyword_end
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all 1
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:76: syntax error, unexpected keyword_elsif, expecting keyword_end (SyntaxError)
+    elsif selection == "2"
+         ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:102: syntax error, unexpected end-of-input, expecting keyword_end
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:6:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all 1
+96384 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 829.5 | 8
+35472 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 748.45 | 10
+63669 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 4434.0 | 23
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all 2
+#<ActiveRecord::Relation [#<Booking id: 1, num_booking: 1, total: 1, flight_id: 1701>]>
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ clear
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all 2
+#<ActiveRecord::Relation [#<Booking id: 1, num_booking: 1, total: 1, flight_id: 1701>]>
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 123
+Bienvenido Administrador
+--------------------------------------------------
+1) Muestra todos los vuelos   (Consejo: ruby flight.rb all 1)
+2) Muestra todas las reservaciones (Consejo: ruby flight.rb all 2)
+3) Crea un nuevo vuelo (Consejo: ruby flight.rb add_flight 'informacion del vuelo')
+4) Salir
+
+Selecciona opción:
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb add_flight
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb add_flight 19813 2017-02-20 21:00:00 UTC CDMX Chihuahua 2:00:00 1900 14
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all 1
+96384 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 829.5 | 8
+35472 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 748.45 | 10
+63669 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 4434.0 | 23
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb add_flight 19813 2017-02-20 21:00:00 UTC CDMX Chihuahua 2:00:00 1900 14
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb add_flight 19813 2017-02-20 21:00:00 UTC CDMX Chihuahua 2:00:00 1900 14
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all 1
+96384 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 829.5 | 8
+35472 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 748.45 | 10
+63669 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 4434.0 | 23
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb add_flight 19813 2017-02-20 21:00:00 UTC CDMX Chihuahua 2:00:00 1900 14
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb add_flight 19813 2017-02-20 21:00:00 UTC CDMX Chihuahua 2:00:00 1900 14
+Agregaste un vuelo exitosamente
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/views/view.rb:84:in `add_flight': undefined method `pust' for #<View:0x007fe5463a8cd8> (NoMethodError)
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:48:in `add_flight'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:16:in `menu'
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:4:in `initialize'
+	from flight.rb:3:in `new'
+	from flight.rb:3:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all 1
+96384 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 829.5 | 8
+35472 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 748.45 | 10
+63669 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 4434.0 | 23
+19813 | 2017-02-20 | 2017-02-20 21:00:00 UTC | 19813 2017-02-20 21:00:00 UTC CDMX Chihuahua 2:00:00 1900 14 | 19813 2017-02-20 21:00:00 UTC CDMX Chihuahua 2:00:00 1900 14 | 2000-01-01 21:00:00 UTC | 19813.0 | 19813
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb add_flight 19813 2017-02-20 21:00:00 UTC CDMX Chihuahua 2:00:00 1900 14
+Agregaste un vuelo exitosamente
+19813 2017-02-20 21:00:00 UTC CDMX Chihuahua 2:00:00 1900 14
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb add_flight 19813 2017-02-20 21:00:00 UTC CDMX Chihuahua 2:00:00 1900 14
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:52: syntax error, unexpected keyword_else, expecting ')' (SyntaxError)
+      else index == 1
+          ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:54: syntax error, unexpected keyword_end, expecting ')'
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:63: syntax error, unexpected end-of-input, expecting keyword_end
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb add_flight 19813 2017-02-20 21:00:00 UTC CDMX Chihuahua 2:00:00 1900 14
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `require_relative': /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:52: syntax error, unexpected keyword_elsif, expecting ')' (SyntaxError)
+      elsif index == 1
+           ^
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:54: syntax error, unexpected keyword_end, expecting ')'
+/Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/app/controllers/controller.rb:63: syntax error, unexpected end-of-input, expecting keyword_end
+	from /Users/codea_mac_09/Desktop/fase01/fase01_dia17_examen2/flight/config/application.rb:5:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb add_flight 19813 2017-02-20 21:00:00 UTC CDMX Chihuahua 2:00:00 1900 14
+Agregaste un vuelo exitosamente
+19813 2017-02-20 21:00:00 UTC CDMX Chihuahua 2:00:00 1900 14
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb all 1
+96384 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 829.5 | 8
+35472 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 748.45 | 10
+63669 | 2015-06-15 |  | Western Sahara | Saudi Arabia | 2000-01-01 07:00:00 UTC | 4434.0 | 23
+19813 | 2017-02-20 | 2017-02-20 21:00:00 UTC | 19813 2017-02-20 21:00:00 UTC CDMX Chihuahua 2:00:00 1900 14 | 19813 2017-02-20 21:00:00 UTC CDMX Chihuahua 2:00:00 1900 14 | 2000-01-01 21:00:00 UTC | 19813.0 | 19813
+19813 |  |  |  |  |  |  | 
+ | 2017-02-20 |  |  |  |  |  | 
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb index
+Menú de Bienvenida:
+Bienvenido a Vuelos Codea
+--------------------------------------------------
+1) Reservaciones
+2) Administrador
+3) Salir
+Selecciona opción:
+Consejo: Para seleccionar tu opción escribe 'ruby flights.rb selected (numero del menu)':
+CodeaCamp09s-Mac-mini:flight codea_mac_09$ ruby flight.rb selected 2
