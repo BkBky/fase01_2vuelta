@@ -1,0 +1,46 @@
+cat << EOF > ~/.sqliterc
+.headers on
+.mode column
+EOF
+
+Para ver las tablas:
+$ sqlite3 users.db
+
+
+
+$  sqlite3 db/tasks.sqlite3 
+sqlite> .schema
+
+
+$ sqlite3 users.db 
+
+SELECT * FROM users;
+___________________
+
+Dentro de carpeta 
+user_schema en la terminal, correr :
+ $ bundle
+
+
+Actividades/
+Configurar el proyecto:
+Instalar 'gem install rake' para correr:
+rake db:create
+
+
+
+se ejecutan estos dos:
+$ rake db:migrate
+$ rake db:seed
+
+El Modelo User:
+Se corre este código:
+$ rspec spec/migrate_create_table_spec.rb
+
+
+
+tasks = Tasks.all
+
+
+
+Tasks.select("task, completed")
