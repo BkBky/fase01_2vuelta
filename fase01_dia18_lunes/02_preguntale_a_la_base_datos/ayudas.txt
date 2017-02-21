@@ -1,0 +1,113 @@
+cat << EOF > ~/.sqliterc
+.headers on
+.mode column
+EOF
+
+
+$ sqlite3 EssentialSQL.db
+
+SELECT * FROM Orders;
+SELECT * FROM Customers;
+SELECT * FROM Orders;
+
+# 1. El total de ordenes del cliente con el ID 3
+SELECT OrderID
+FROM Orders
+WHERE CustomerID  = 3;
+
+
+
+SELECT COUNT(*)
+FROM Orders
+WHERE CustomerID  = 3;
+
+# 2. El total de ordenes del cliente con el ContactName igual a 'Jim Wood'
+
+SELECT * FROM Customers;
+SELECT * FROM Orders;
+
+SELECT COUNT(*)
+FROM Orders
+INNER JOIN Customers 
+ON Orders.CustomerID=Customers.CustomerID
+WHERE ContactName = 'Jim Wood';
+
+
+# 3. El total de ordenes del cliente con CompanyName igual a 'Slots Carpet'
+
+SELECT COUNT(*)
+FROM Orders
+INNER JOIN Customers 
+ON Orders.CustomerID=Customers.CustomerID
+WHERE CompanyName = 'Slots Carpet';
+
+
+# 4 El total de ordenes de cada compañía ordenado de manera descendente
+
+SELECT Customers.CompanyName, COUNT(Orders.OrderID) AS TotalOrders FROM Orders
+LEFT JOIN Customers 
+ON Orders.CustomerID=Customers.CustomerID
+GROUP BY CompanyName
+ORDER BY TotalOrders DESC;
+
+# 5 El total de ordenes de cada compañía ordenado de manera ascendente
+
+SELECT Customers.CompanyName, COUNT(Orders.OrderID) AS TotalOrders FROM Orders
+LEFT JOIN Customers 
+ON Orders.CustomerID=Customers.CustomerID
+GROUP BY CompanyName
+ORDER BY TotalOrders ASC;
+
+
+# 6 La compañía con el mayor número de ordenes
+
+SELECT Customers.CompanyName,COUNT(Orders.OrderID) AS TotalOrders FROM Orders
+LEFT JOIN Customers 
+ON Orders.CustomerID=Customers.CustomerID
+GROUP BY CompanyName
+ORDER BY TotalOrders DESC
+LIMIT 1;
+
+# 7. La suma total de piezas que fueron ordenadas por cada compañía.
+
+SELECT Customers.CompanyName, SUM(OrderDetails.Quantity) AS QUANTITY FROM OrderDetails 
+LEFT JOIN Orders
+ON OrderDetails.OrderID = Orders.OrderID
+LEFT JOIN Customers
+ON Orders.CustomerID=Customers.CustomerID
+GROUP BY CompanyName
+ORDER BY QUANTITY DESC;
+
+# 8. El monto total en pesos de la orden con ID 4
+SELECT OrderDetails.OrderID, (Quantity *  UnitPrice) AS Amount
+FROM OrderDetails
+WHERE OrderID= 4;
+
+# 9 . El monto total en pesos de cada orden
+SELECT Orders.OrderID, SUM(Quantity *  UnitPrice) AS Amount  FROM OrderDetails 
+LEFT JOIN Orders
+ON OrderDetails.OrderID = Orders.OrderID
+GROUP BY Orders.OrderID
+ORDER BY Orders.OrderID ASC;
+
+# 10. La consulta del inciso anterior pero únicamente mostrando aquellas ordenes que sean mayores a $1,000.00 pesos
+
+SELECT Orders.OrderID, SUM(Quantity *  UnitPrice) AS Amount  FROM OrderDetails 
+LEFT JOIN Orders
+ON OrderDetails.OrderID = Orders.OrderID
+GROUP BY Orders.OrderID
+HAVING SUM(Quantity *  UnitPrice) > 1000;
+
+
+SELECT Orders.OrderID, SUM(Quantity *  UnitPrice) AS Amount  FROM OrderDetails 
+LEFT JOIN Orders
+ON OrderDetails.OrderID = Orders.OrderID
+GROUP BY Orders.OrderID
+HAVING Amount > 1000;
+
+# 11. El total de piezas en cada orden
+SELECT Orders.OrderID, SUM(Quantity) AS TotalItems  FROM OrderDetails 
+LEFT JOIN Orders
+ON OrderDetails.OrderID = Orders.OrderID
+GROUP BY Orders.OrderID
+ORDER BY Orders.OrderID ASC;
