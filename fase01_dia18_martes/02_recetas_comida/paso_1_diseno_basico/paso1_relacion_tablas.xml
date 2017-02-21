@@ -1,0 +1,82 @@
+<!--Paso 1: Diseño básico-->
+
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- SQL XML created by WWW SQL Designer, https://github.com/ondras/wwwsqldesigner/ -->
+<!-- Active URL: http://ondras.zarovi.cz/sql/demo/ -->
+<sql>
+<datatypes db="sqlite">
+  <group label="Affinity">
+    <type label="Text" default="" length="1" sql="TEXT" quote="'" color="rgb(255,200,200)"/>
+    <type label="Numeric" default="0" length="0" sql="NUMERIC" quote="" color="rgb(238,238,170)"/>
+    <type label="Integer" default="0" length="0" sql="INTEGER" quote="" color="rgb(238,238,170)"/>
+    <type label="Real" default="0" length="0" sql="REAL" quote="" color="rgb(238,238,170)"/>
+    <type label="None" default="" length="0" sql="NONE" quote="" color="rgb(200,255,200)"/>
+  </group>
+</datatypes><table x="345" y="202" name="Chefs">
+<row name="ChefID" null="0" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Name" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>'NULL'</default></row>
+<row name="FirstName" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>'NULL'</default></row>
+<row name="Email" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>'NULL'</default></row>
+<row name="PhoneNumber" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>'NULL'</default></row>
+<key type="PRIMARY" name="">
+<part>ChefID</part>
+</key>
+</table>
+<table x="530" y="199" name="Meals">
+<row name="MealID" null="0" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="ChefID" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Chefs" row="ChefID" />
+</row>
+<row name="CategoryID" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Name_meal" null="1" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>MealID</part>
+</key>
+</table>
+<table x="905" y="202" name="Ingredients">
+<row name="IngredientID" null="0" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="IngredientName" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>'NULL'</default></row>
+<row name="Quantity" null="1" autoincrement="0">
+<datatype>NUMERIC</datatype>
+<default>NULL</default></row>
+<row name="Measurement" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>'NULL'</default></row>
+<key type="PRIMARY" name="">
+<part>IngredientID</part>
+</key>
+</table>
+<table x="679" y="366" name="ingredients_meals">
+<row name="MealID" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Meals" row="MealID" />
+</row>
+<row name="IngredientID" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Ingredients" row="IngredientID" />
+</row>
+<key type="PRIMARY" name="">
+</key>
+</table>
+</sql>
