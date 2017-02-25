@@ -1,5 +1,5 @@
 class TasksController
-  def initialize(args)
+  def initialize#(args)
     @view = TasksView.new
     menu(args)
   end

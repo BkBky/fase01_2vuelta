@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- SQL XML created by WWW SQL Designer, https://github.com/ondras/wwwsqldesigner/ -->
+<!-- Active URL: http://ondras.zarovi.cz/sql/demo/ -->
+<sql>
+<datatypes db="sqlite">
+  <group label="Affinity">
+    <type label="Text" default="" length="1" sql="TEXT" quote="'" color="rgb(255,200,200)"/>
+    <type label="Numeric" default="0" length="0" sql="NUMERIC" quote="" color="rgb(238,238,170)"/>
+    <type label="Integer" default="0" length="0" sql="INTEGER" quote="" color="rgb(238,238,170)"/>
+    <type label="Real" default="0" length="0" sql="REAL" quote="" color="rgb(238,238,170)"/>
+    <type label="None" default="" length="0" sql="NONE" quote="" color="rgb(200,255,200)"/>
+  </group>
+</datatypes><table x="654" y="102" name="Decks">
+<row name="DeckID" null="0" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Geografia" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>'NULL'</default></row>
+<row name="Historia" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>'NULL'</default></row>
+<row name="Entretenimiento" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>'NULL'</default></row>
+<key type="PRIMARY" name="">
+<part>DeckID</part>
+</key>
+</table>
+<table x="879" y="99" name="Questions">
+<row name="QuestionID" null="0" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="DeckID" null="0" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Decks" row="DeckID" />
+</row>
+<row name="Question" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>'NULL'</default></row>
+<key type="PRIMARY" name="">
+<part>QuestionID</part>
+</key>
+</table>
+<table x="1098" y="248" name="Answers">
+<row name="AnswerID" null="0" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="QuestionID" null="1" autoincrement="0">
+<datatype>NUMERIC</datatype>
+<default>NULL</default><relation table="Questions" row="QuestionID" />
+</row>
+<row name="Answer" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>'NULL'</default></row>
+<row name="Value_answer" null="1" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>AnswerID</part>
+</key>
+</table>
+<table x="301" y="299" name="Users">
+<row name="UserID" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Name" null="1" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>NULL</default></row>
+<row name="Password" null="1" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>NULL</default></row>
+<row name="Email" null="1" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>UserID</part>
+</key>
+</table>
+<table x="471" y="402" name="Rounds">
+<row name="RoundID" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="DeckID" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Decks" row="DeckID" />
+</row>
+<row name="UserID" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Users" row="UserID" />
+</row>
+<key type="PRIMARY" name="">
+<part>RoundID</part>
+</key>
+</table>
+<table x="750" y="450" name="Round_questions">
+<row name="Round_questionID" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="RoundID" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Rounds" row="RoundID" />
+</row>
+<row name="QuestionID" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="Questions" row="QuestionID" />
+</row>
+<row name="Answer_user" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Score" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>Round_questionID</part>
+</key>
+</table>
+</sql>

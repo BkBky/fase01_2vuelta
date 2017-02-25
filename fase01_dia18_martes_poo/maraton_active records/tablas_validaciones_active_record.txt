@@ -1,0 +1,334 @@
+Last login: Wed Feb 22 09:45:34 on ttys000
+CodeaCamp09s-Mac-mini:~ codea_mac_09$ cd Desktop/
+CodeaCamp09s-Mac-mini:Desktop codea_mac_09$ cd /Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active\ records/maraton 
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ ls
+Gemfile		Rakefile	config		flight.rb
+Gemfile.lock	app		db		spec
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ bundle
+Warning: the running version of Bundler is older than the version that created the lockfile. We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+Using concurrent-ruby 1.0.2
+Using i18n 0.7.0
+Using minitest 5.9.1
+Using thread_safe 0.3.5
+Using arel 7.1.4
+Using sqlite3 1.3.12
+Using bundler 1.11.2
+Using tzinfo 1.2.2
+Using activesupport 5.0.0.1
+Using activemodel 5.0.0.1
+Using activerecord 5.0.0.1
+Bundle complete! 2 Gemfile dependencies, 11 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ gem install rake
+Successfully installed rake-12.0.0
+Parsing documentation for rake-12.0.0
+Done installing documentation for rake after 0 seconds
+1 gem installed
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:create
+touch db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:migrate
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:seed
+rake aborted!
+ActiveModel::UnknownAttributeError: unknown attribute 'name' for User.
+/Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/db/seeds.rb:3:in `<top (required)>'
+/Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/Rakefile:24:in `require_relative'
+/Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/Rakefile:24:in `block in <top (required)>'
+Tasks: TOP => db:seed
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake drop
+rake aborted!
+Don't know how to build task 'drop' (see --tasks)
+
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:drope
+rake aborted!
+Don't know how to build task 'db:drope' (see --tasks)
+
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:drop
+rm -f db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:create
+touch db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:migrate
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class CreateFlights < ActiveRecord::Migration[4.2] (called from block in <top (required)> at /Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/Rakefile:19)
+== 20121011144238 CreateFlights: migrating ====================================
+-- create_table(:users, {})
+   -> 0.0012s
+-- create_table(:decks, {})
+   -> 0.0003s
+-- create_table(:rounds, {})
+   -> 0.0003s
+-- create_table(:questions, {})
+   -> 0.0003s
+-- create_table(:answers, {})
+   -> 0.0019s
+-- create_table(:round_questions, {})
+   -> 0.0004s
+== 20121011144238 CreateFlights: migrated (0.0049s) ===========================
+
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:seed
+rake aborted!
+ActiveModel::UnknownAttributeError: unknown attribute 'answers' for Answer.
+/Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/db/seeds.rb:68:in `<top (required)>'
+/Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/Rakefile:24:in `require_relative'
+/Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/Rakefile:24:in `block in <top (required)>'
+Tasks: TOP => db:seed
+(See full trace by running task with --trace)
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:seed
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake console
+irb(main):001:0> users = User.all
+=> #<ActiveRecord::Relation [#<User id: 1, name: "Erick", password: "123", email: "erick@gmail.com">, #<User id: 2, name: "Esme", password: "456", email: "esme@gmail.com">, #<User id: 3, name: "Fausto", password: "789", email: "fausto@gmail.com">, #<User id: 4, name: "Erick", password: "123", email: "erick@gmail.com">, #<User id: 5, name: "Esme", password: "456", email: "esme@gmail.com">, #<User id: 6, name: "Fausto", password: "789", email: "fausto@gmail.com">]>
+irb(main):002:0> 
+irb(main):003:0* decks = Deck.all
+=> #<ActiveRecord::Relation [#<Deck id: 1, name: "Geografía">, #<Deck id: 2, name: "Historia">, #<Deck id: 3, name: "Entretenimiento">, #<Deck id: 4, name: "Geografía">, #<Deck id: 5, name: "Historia">, #<Deck id: 6, name: "Entretenimiento">]>
+irb(main):004:0> rounds = Round.all
+=> #<ActiveRecord::Relation [#<Round id: 1, deck_id: 1, user_id: 1>, #<Round id: 2, deck_id: 2, user_id: 2>, #<Round id: 3, deck_id: 3, user_id: 3>, #<Round id: 4, deck_id: 4, user_id: 4>, #<Round id: 5, deck_id: 5, user_id: 5>, #<Round id: 6, deck_id: 6, user_id: 6>]>
+irb(main):005:0> questions = Question.all
+=> #<ActiveRecord::Relation [#<Question id: 1, deck_id: 1, question: "¿Cuál es el país menos turístico de Europa?">, #<Question id: 2, deck_id: 1, question: "A qué país pertenece la isla de Tasmania?">, #<Question id: 3, deck_id: 1, question: "¿En cuál de los siguientes países NO hay ningún de...">, #<Question id: 4, deck_id: 1, question: "¿Cuál es el código internacional para Cuba?">, #<Question id: 5, deck_id: 1, question: "¿Cuál es la capital del estado de Arkansas?">, #<Question id: 6, deck_id: 2, question: "¿Qué premiada serie de televisión tiene como prota...">, #<Question id: 7, deck_id: 2, question: "¿Como se llamaba la protagonista femenina de la se...">, #<Question id: 8, deck_id: 2, question: "¿Cómo se llamaba el personaje que interpretaba Joh...">, #<Question id: 9, deck_id: 2, question: "¿En qué año se estrenó la película de Disney Pinoc...">, #<Question id: 10, deck_id: 2, question: "¿En qué país nació la Bauhaus?">, ...]>
+irb(main):006:0> answers = Answer.all
+=> #<ActiveRecord::Relation [#<Answer id: 1, question_id: 1, answer: "Armenia", value_answer: false>, #<Answer id: 2, question_id: 1, answer: "Moldavia", value_answer: false>, #<Answer id: 3, question_id: 1, answer: "Liechtenstein", value_answer: true>, #<Answer id: 4, question_id: 2, answer: "Estados Unidos", value_answer: false>, #<Answer id: 5, question_id: 2, answer: "Australia", value_answer: true>, #<Answer id: 6, question_id: 2, answer: "Portugal", value_answer: false>, #<Answer id: 7, question_id: 3, answer: "España", value_answer: false>, #<Answer id: 8, question_id: 3, answer: "Chile", value_answer: false>, #<Answer id: 9, question_id: 3, answer: "Alemania", value_answer: true>, #<Answer id: 10, question_id: 4, answer: "CA", value_answer: false>, ...]>
+irb(main):007:0> round_questions = RoundQuestion
+=> RoundQuestion(id: integer, round_id: integer, question_id: integer, answer_user: string, score: integer)
+irb(main):008:0> round_questions = RoundQuestion.all
+=> #<ActiveRecord::Relation []>
+irb(main):009:0> exit
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ sql3 rake db:drop
+-bash: sql3: command not found
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:drop
+rm -f db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:create
+touch db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:migrate
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class CreateFlights < ActiveRecord::Migration[4.2] (called from block in <top (required)> at /Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/Rakefile:19)
+== 20121011144238 CreateFlights: migrating ====================================
+-- create_table(:users, {})
+   -> 0.0011s
+-- create_table(:decks, {})
+   -> 0.0003s
+-- create_table(:rounds, {})
+   -> 0.0003s
+-- create_table(:questions, {})
+   -> 0.0003s
+-- create_table(:answers, {})
+   -> 0.0137s
+-- create_table(:round_questions, {})
+   -> 0.0005s
+== 20121011144238 CreateFlights: migrated (0.0168s) ===========================
+
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:seed
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake console
+irb(main):001:0> users = User.all
+=> #<ActiveRecord::Relation [#<User id: 1, name: "Erick", password: "123", email: "erick@gmail.com">, #<User id: 2, name: "Esme", password: "456", email: "esme@gmail.com">, #<User id: 3, name: "Fausto", password: "789", email: "fausto@gmail.com">]>
+irb(main):002:0> 
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ irb
+irb(main):001:0> load 'tasks.db'
+LoadError: cannot load such file -- tasks.db
+	from (irb):1:in `load'
+	from (irb):1
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/bin/irb:11:in `<main>'
+irb(main):002:0> load 'db/tasks.sqlite3'
+TypeError: no implicit conversion of Fixnum into String
+	from db/tasks.sqlite3:1:in `format'
+	from db/tasks.sqlite3:1:in `<top (required)>'
+	from (irb):2:in `load'
+	from (irb):2
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/bin/irb:11:in `<main>'
+irb(main):003:0> load 'db/tasks.sqlite3.db'
+LoadError: cannot load such file -- db/tasks.sqlite3.db
+	from (irb):3:in `load'
+	from (irb):3
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/bin/irb:11:in `<main>'
+irb(main):004:0> load 'db/tasks.db'
+LoadError: cannot load such file -- db/tasks.db
+	from (irb):4:in `load'
+	from (irb):4
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/bin/irb:11:in `<main>'
+irb(main):005:0> 
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ sqlite3 db/tasks.sqlite3
+-- Loading resources from /Users/codea_mac_09/.sqliterc
+
+SQLite version 3.8.5 2014-08-15 22:37:57
+Enter ".help" for usage hints.
+sqlite> SELECT * FROM users;
+id          name        password    email          
+----------  ----------  ----------  ---------------
+1           Erick       123         erick@gmail.com
+2           Esme        456         esme@gmail.com 
+3           Fausto      789         fausto@gmail.co
+sqlite> SELECT * FROM decks;
+id          name      
+----------  ----------
+1           Geografía
+2           Historia  
+3           Entretenim
+sqlite> SELECT * FROM rounds;
+id          deck_id     user_id   
+----------  ----------  ----------
+1           1           1         
+2           2           2         
+3           3           3         
+sqlite> SELECT * FROM questions;
+id          deck_id     question                                       
+----------  ----------  -----------------------------------------------
+1           1           ¿Cuál es el país menos turístico de Europa?
+2           1           A qué país pertenece la isla de Tasmania?    
+3           1           ¿En cuál de los siguientes países NO hay nin
+4           1           ¿Cuál es el código internacional para Cuba? 
+5           1           ¿Cuál es la capital del estado de Arkansas?  
+6           2           ¿Qué premiada serie de televisión tiene como
+7           2           ¿Como se llamaba la protagonista femenina de l
+8           2           ¿Cómo se llamaba el personaje que interpretab
+9           2           ¿En qué año se estrenó la película de Disn
+10          2           ¿En qué país nació la Bauhaus?             
+11          3           ¿Cuál es la rama mayoritaria del Islam?      
+12          3           ¿De qué fue ministro Manuel Fraga durante el 
+13          3           ¿En qué año tuvo lugar el ataque a Pearl Har
+14          3           ¿Las revueltas de dónde son llamadas Intifada
+15          3           La Comuna de París fue un movimiento...       
+sqlite> SELECT * FROM answers;
+id          question_id  answer      value_answer
+----------  -----------  ----------  ------------
+1           1            Armenia     f           
+2           1            Moldavia    f           
+3           1            Liechtenst  t           
+4           2            Estados Un  f           
+5           2            Australia   t           
+6           2            Portugal    f           
+7           3            España     f           
+8           3            Chile       f           
+9           3            Alemania    t           
+10          4            CA          f           
+11          4            CU          t           
+12          4            CB          f           
+13          5            Kansas      f           
+14          5            Little Roc  t           
+15          5            Washington  f           
+16          6            Mad Men     t           
+17          6            Shameless   f           
+18          6            Juego de T  f           
+19          7            Elliot      t           
+20          7            Sarah       f           
+21          7            Jordan      f           
+22          8            Danny Puñ  f           
+23          8            Danny Zuko  t           
+24          8            Danny Chul  f           
+25          9            1940        t           
+26          9            1950        f           
+27          9            1952        f           
+28          10           Alemania    t           
+29          10           Holanda     f           
+30          10           Rusia       f           
+31          11           Chiísmo    f           
+32          11           Sunismo     t           
+33          11           Jariyismo   f           
+34          12           De Interio  f           
+35          12           De Econom?  f           
+36          12           De Informa  t           
+37          13           1939        f           
+38          13           1940        f           
+39          13           1           t           
+40          14           Montenegro  f           
+41          14           Kosovo      f           
+42          14           Palestina   t           
+43          15           Del mayo d  f           
+44          15           Hippie de   f           
+45          15           Insurrecio  t           
+sqlite> SELECT * FROM round_questions;
+id          round_id    question_id  answer_user     score     
+----------  ----------  -----------  --------------  ----------
+1           1           15           Del mayo de 68  0         
+2           1           15           Insurrecional   1         
+3           1           14           Palestina       1         
+4           2           6            Mad Men         1         
+5           2           7            Elliot          1         
+6           2           8            Danny Puño     0         
+sqlite> ^D
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:drop
+rm -f db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:create
+touch db/tasks.sqlite3
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:migrate
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class CreateFlights < ActiveRecord::Migration[4.2] (called from block in <top (required)> at /Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/Rakefile:19)
+== 20121011144238 CreateFlights: migrating ====================================
+-- create_table(:users, {})
+   -> 0.0011s
+-- create_table(:decks, {})
+   -> 0.0005s
+-- create_table(:rounds, {})
+   -> 0.0004s
+-- create_table(:questions, {})
+   -> 0.0003s
+-- create_table(:answers, {})
+   -> 0.0175s
+-- create_table(:round_questions, {})
+   -> 0.0004s
+== 20121011144238 CreateFlights: migrated (0.0391s) ===========================
+
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake db:seed
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ sqlite3 db/tasks.sqlite3
+-- Loading resources from /Users/codea_mac_09/.sqliterc
+
+SQLite version 3.8.5 2014-08-15 22:37:57
+Enter ".help" for usage hints.
+sqlite> SELECT * FROM rounds;
+id          deck_id     user_id   
+----------  ----------  ----------
+1           1           1         
+2           3           2         
+3           2           2         
+4           3           3         
+5           1           2         
+sqlite> SELECT * FROM round_questions;
+id          round_id    question_id  answer_user     score     
+----------  ----------  -----------  --------------  ----------
+1           1           15           Del mayo de 68  0         
+2           1           15           Insurrecional   1         
+3           1           14           Palestina       1         
+4           2           6            Mad Men         1         
+5           2           7            Elliot          1         
+6           2           8            Danny Puño     0         
+sqlite> ^D
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake console
+irb(main):001:0> SELECT * FROM round_questions;
+irb(main):002:0* round_questions = RoundQuestion.all
+SyntaxError: (irb):1: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+SELECT * FROM round_questions;
+                             ^
+	from /Users/codea_mac_09/.rbenv/versions/2.2.4/bin/irb:11:in `<main>'
+irb(main):003:0> round_questions = RoundQuestion.all
+=> #<ActiveRecord::Relation [#<RoundQuestion id: 1, round_id: 1, question_id: 15, answer_user: "Del mayo de 68", score: 0>, #<RoundQuestion id: 2, round_id: 1, question_id: 15, answer_user: "Insurrecional autogestionario del XIX", score: 1>, #<RoundQuestion id: 3, round_id: 1, question_id: 14, answer_user: "Palestina", score: 1>, #<RoundQuestion id: 4, round_id: 2, question_id: 6, answer_user: "Mad Men", score: 1>, #<RoundQuestion id: 5, round_id: 2, question_id: 7, answer_user: "Elliot", score: 1>, #<RoundQuestion id: 6, round_id: 2, question_id: 8, answer_user: "Danny Puño", score: 0>]>
+irb(main):004:0> round_questions = RoundQuestion.all
+=> #<ActiveRecord::Relation [#<RoundQuestion id: 1, round_id: 1, question_id: 15, answer_user: "Del mayo de 68", score: 0>, #<RoundQuestion id: 2, round_id: 1, question_id: 15, answer_user: "Insurrecional autogestionario del XIX", score: 1>, #<RoundQuestion id: 3, round_id: 1, question_id: 14, answer_user: "Palestina", score: 1>, #<RoundQuestion id: 4, round_id: 2, question_id: 6, answer_user: "Mad Men", score: 1>, #<RoundQuestion id: 5, round_id: 2, question_id: 7, answer_user: "Elliot", score: 1>, #<RoundQuestion id: 6, round_id: 2, question_id: 8, answer_user: "Danny Puño", score: 0>]>
+irb(main):005:0> round_questions = RoundQuestion.all
+=> #<ActiveRecord::Relation [#<RoundQuestion id: 1, round_id: 1, question_id: 15, answer_user: "Del mayo de 68", score: 0>, #<RoundQuestion id: 2, round_id: 1, question_id: 15, answer_user: "Insurrecional autogestionario del XIX", score: 1>, #<RoundQuestion id: 3, round_id: 1, question_id: 14, answer_user: "Palestina", score: 1>, #<RoundQuestion id: 4, round_id: 2, question_id: 6, answer_user: "Mad Men", score: 1>, #<RoundQuestion id: 5, round_id: 2, question_id: 7, answer_user: "Elliot", score: 1>, #<RoundQuestion id: 6, round_id: 2, question_id: 8, answer_user: "Danny Puño", score: 0>]>
+irb(main):006:0> user = User.first
+=> #<User id: 1, name: "Erick", password: "123", email: "erick@gmail.com">
+irb(main):007:0> user = User.last
+=> #<User id: 3, name: "Fausto", password: "789", email: "fausto@gmail.com">
+irb(main):008:0> user = user = User.find(2)
+=> #<User id: 2, name: "Esme", password: "456", email: "esme@gmail.com">
+irb(main):009:0> round_questions = RoundQuestion.find(3)
+=> #<RoundQuestion id: 3, round_id: 1, question_id: 14, answer_user: "Palestina", score: 1>
+irb(main):010:0> round_questions = RoundQuestion.find(2)
+=> #<RoundQuestion id: 2, round_id: 1, question_id: 15, answer_user: "Insurrecional autogestionario del XIX", score: 1>
+irb(main):011:0> RoundQuestion.count(:all)
+=> 6
+irb(main):012:0> RoundQuestion.count(:score)
+=> 6
+irb(main):013:0> Question.where(question: '¿Cuál es el país menos turístico de Europa?').take
+=> #<Question id: 1, deck_id: 1, question: "¿Cuál es el país menos turístico de Europa?">
+irb(main):014:0> Question.where(question: '¿Cuál es la rama mayoritaria del Islam?').take
+=> #<Question id: 11, deck_id: 3, question: "¿Cuál es la rama mayoritaria del Islam?">
+irb(main):015:0> RoundQuestion.where(score: 0).take
+=> #<RoundQuestion id: 1, round_id: 1, question_id: 15, answer_user: "Del mayo de 68", score: 0>
+irb(main):016:0> RoundQuestion.where(score: 0)
+=> #<ActiveRecord::Relation [#<RoundQuestion id: 1, round_id: 1, question_id: 15, answer_user: "Del mayo de 68", score: 0>, #<RoundQuestion id: 6, round_id: 2, question_id: 8, answer_user: "Danny Puño", score: 0>]>
+irb(main):017:0> RoundQuestion.where(score: 0).count
+=> 2
+irb(main):018:0> 

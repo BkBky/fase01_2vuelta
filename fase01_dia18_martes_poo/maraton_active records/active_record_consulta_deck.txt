@@ -1,0 +1,63 @@
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake console
+irb(main):001:0> Question.where(deck_id: 2)
+=> #<ActiveRecord::Relation [#<Question id: 6, deck_id: 2, question: "¿Qué premiada serie de televisión tiene como prota...">, #<Question id: 7, deck_id: 2, question: "¿Como se llamaba la protagonista femenina de la se...">, #<Question id: 8, deck_id: 2, question: "¿Cómo se llamaba el personaje que interpretaba Joh...">, #<Question id: 9, deck_id: 2, question: "¿En qué año se estrenó la película de Disney Pinoc...">, #<Question id: 10, deck_id: 2, question: "¿En qué país nació la Bauhaus?">]>
+irb(main):002:0> deck = Deck.find(2)
+=> #<Deck id: 2, name: "Historia">
+irb(main):003:0> deck
+=> #<Deck id: 2, name: "Historia">
+irb(main):004:0> deck.id
+=> 2
+irb(main):005:0> Question.where(deck_id: deck.id)
+=> #<ActiveRecord::Relation [#<Question id: 6, deck_id: 2, question: "¿Qué premiada serie de televisión tiene como prota...">, #<Question id: 7, deck_id: 2, question: "¿Como se llamaba la protagonista femenina de la se...">, #<Question id: 8, deck_id: 2, question: "¿Cómo se llamaba el personaje que interpretaba Joh...">, #<Question id: 9, deck_id: 2, question: "¿En qué año se estrenó la película de Disney Pinoc...">, #<Question id: 10, deck_id: 2, question: "¿En qué país nació la Bauhaus?">]>
+irb(main):006:0> Deck.all
+=> #<ActiveRecord::Relation [#<Deck id: 1, name: "Geografía">, #<Deck id: 2, name: "Historia">, #<Deck id: 3, name: "Entretenimiento">]>
+irb(main):007:0> deck = Deck.find_by(name: "Geografía")
+=> #<Deck id: 1, name: "Geografía">
+irb(main):008:0> deck.id
+=> 1
+irb(main):009:0> Question.where(deck_id: deck.id)
+=> #<ActiveRecord::Relation [#<Question id: 1, deck_id: 1, question: "¿Cuál es el país menos turístico de Europa?">, #<Question id: 2, deck_id: 1, question: "A qué país pertenece la isla de Tasmania?">, #<Question id: 3, deck_id: 1, question: "¿En cuál de los siguientes países NO hay ningún de...">, #<Question id: 4, deck_id: 1, question: "¿Cuál es el código internacional para Cuba?">, #<Question id: 5, deck_id: 1, question: "¿Cuál es la capital del estado de Arkansas?">]>
+irb(main):010:0> Question.where(deck_id: deck.id).count
+=> 5
+irb(main):011:0> exit
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ ruby flight.rb
+
+
+********************************
+      Bienvenido a Maratón     
+********************************
+Escoje una opción:
+1. Crear cuenta
+2. Jugar
+3. Ver Scores
+4. Salir
+
+Si aún no tienes una cuenta, tendrás que hacerlo para poder jugar
+
+
+2
+
+
+********************************
+            Login              
+********************************
+ingresa tu nombre
+Esme
+ingresa tu password
+456
+
+
+********************************
+     Bienvenido al juego       
+********************************
+Escoge un deck
+1. Geografía
+2. Historia
+3. Entretenimiento
+1
+#<ActiveRecord::Relation [#<Question id: 1, deck_id: 1, question: "¿Cuál es el país menos turístico de Europa?">, #<Question id: 2, deck_id: 1, question: "A qué país pertenece la isla de Tasmania?">, #<Question id: 3, deck_id: 1, question: "¿En cuál de los siguientes países NO hay ningún de...">, #<Question id: 4, deck_id: 1, question: "¿Cuál es el código internacional para Cuba?">, #<Question id: 5, deck_id: 1, question: "¿Cuál es la capital del estado de Arkansas?">]>
+"¿Cuál es el país menos turístico de Europa?"
+"A qué país pertenece la isla de Tasmania?"
+"¿En cuál de los siguientes países NO hay ningún desierto?"
+"¿Cuál es el código internacional para Cuba?"
+"¿Cuál es la capital del estado de Arkansas?"

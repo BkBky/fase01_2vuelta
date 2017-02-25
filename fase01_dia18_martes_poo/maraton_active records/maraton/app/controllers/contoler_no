@@ -1,0 +1,69 @@
+class Controller 
+  def initialize
+    @view = View.new
+    index
+    menu_play
+  end
+
+  def index
+    input = @view.index
+    users = User.all
+ 
+    case input
+      when "1"
+        new_user_inputs = menu_register(input)
+        signup(new_user_inputs)
+      when "2" 
+        input = @view.signup_menu 
+        signup_user(input)
+     # when "3"
+
+    end
+ # p input = @view.index
+    # menu_register(input)
+  end
+
+  def menu_register(input_user)
+    if input_user.to_i == 1
+       new_user_inputs = @view.register   
+    end
+  end
+
+  def signup(new_user)  
+    new_user.each_with_index do |value, index|
+      if index == 0
+        User.create do |u|
+          u.name = new_user[0]
+          u.email = new_user[1]
+          u.password = new_user[2]
+        end
+      end
+    end
+    p "Te has registrado correctamente"
+     new_signup_inputs = @view.signup_menu#(new_user)
+     signup_user(new_signup_inputs)
+  end
+
+  def signup_user(signup)
+    users = User.all
+    users.each do |validate|
+      if signup[0] == "#{validate.name}" and signup[1] == "#{validate.password}" 
+        @view.play
+      end
+    end
+  end
+
+  def menu_play
+    input_play = @view.play
+    p "#{input_play en menu play controller}"
+    case input_play
+      when "1"
+        geography
+    end
+  end
+
+  def geography
+    p "estoy en metodo geography entrando desde menu play del view"
+  end
+      
+end

@@ -1,0 +1,277 @@
+Last login: Wed Feb 22 18:59:16 on ttys000
+CodeaCamp09s-Mac-mini:~ codea_mac_09$ cd Desktop
+CodeaCamp09s-Mac-mini:Desktop codea_mac_09$ cd /Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active\ records/maraton 
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ ruby flight.rb
+/Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/config/application.rb:5:in `require_relative': /Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/app/controllers/controller.rb:29: syntax error, unexpected keyword_do_block, expecting keyword_end (SyntaxError)
+/Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/app/controllers/controller.rb:35: syntax error, unexpected end-of-input, expecting keyword_end
+	from /Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/config/application.rb:5:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ ruby flight.rb
+
+
+********************************
+      Bienvenido a Maratón     
+********************************
+Escoje una opción:
+1. Registrarse
+2. Ver Scores
+3. Jugar
+4. Salir
+
+Si aún note has registrado, tendrás que hacerlo para poder jugar
+
+
+1
+"1"
+
+
+********************************
+      Registro de usuario    
+********************************
+ingresa tu Nombre
+hola
+Ingresa tu email
+mundo
+Ingresa tu password
+dpos
+en el view en coin ek signup metodo
+hola
+mundo
+dpos
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake console
+irb(main):001:0> users = User.all
+=> #<ActiveRecord::Relation [#<User id: 1, name: "Erick", password: "123", email: "erick@gmail.com">, #<User id: 2, name: "Esme", password: "456", email: "esme@gmail.com">, #<User id: 3, name: "Fausto", password: "789", email: "fausto@gmail.com">, #<User id: 4, name: "0", password: "0", email: "0">, #<User id: 5, name: "1", password: "0", email: "0">, #<User id: 6, name: "0", password: "1", email: "0">]>
+irb(main):002:0> users = User.all
+=> #<ActiveRecord::Relation [#<User id: 1, name: "Erick", password: "123", email: "erick@gmail.com">, #<User id: 2, name: "Esme", password: "456", email: "esme@gmail.com">, #<User id: 3, name: "Fausto", password: "789", email: "fausto@gmail.com">, #<User id: 4, name: "0", password: "0", email: "0">, #<User id: 5, name: "1", password: "0", email: "0">, #<User id: 6, name: "0", password: "1", email: "0">]>
+irb(main):003:0> exit
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ ruby flight.rb
+
+
+********************************
+      Bienvenido a Maratón     
+********************************
+Escoje una opción:
+1. Registrarse
+2. Ver Scores
+3. Jugar
+4. Salir
+
+Si aún note has registrado, tendrás que hacerlo para poder jugar
+
+
+1
+"1"
+
+
+********************************
+      Registro de usuario    
+********************************
+ingresa tu Nombre
+hola
+Ingresa tu email
+mundo    
+Ingresa tu password
+dos
+en el view en coin ek signup metodo
+hola
+mundo
+dos
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake console
+irb(main):001:0> user = User.all
+=> #<ActiveRecord::Relation [#<User id: 1, name: "Erick", password: "123", email: "erick@gmail.com">, #<User id: 2, name: "Esme", password: "456", email: "esme@gmail.com">, #<User id: 3, name: "Fausto", password: "789", email: "fausto@gmail.com">, #<User id: 4, name: "0", password: "0", email: "0">, #<User id: 5, name: "1", password: "0", email: "0">, #<User id: 6, name: "0", password: "1", email: "0">, #<User id: 7, name: "h", password: "o", email: "l">, #<User id: 8, name: "u", password: "u", email: "n">, #<User id: 9, name: "s", password: "o", email: "s">]>
+irb(main):002:0> exit
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ ruby flight.rb
+
+
+********************************
+      Bienvenido a Maratón     
+********************************
+Escoje una opción:
+1. Registrarse
+2. Ver Scores
+3. Jugar
+4. Salir
+
+Si aún note has registrado, tendrás que hacerlo para poder jugar
+
+
+1
+"1"
+
+
+********************************
+      Registro de usuario    
+********************************
+ingresa tu Nombre
+sin
+Ingresa tu email
+hola
+Ingresa tu password
+dos
+en el view en coin ek signup metodo
+sin
+hola
+dos
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake console
+irb(main):001:0> users = User.all
+=> #<ActiveRecord::Relation [#<User id: 1, name: "Erick", password: "123", email: "erick@gmail.com">, #<User id: 2, name: "Esme", password: "456", email: "esme@gmail.com">, #<User id: 3, name: "Fausto", password: "789", email: "fausto@gmail.com">, #<User id: 4, name: "0", password: "0", email: "0">, #<User id: 5, name: "1", password: "0", email: "0">, #<User id: 6, name: "0", password: "1", email: "0">, #<User id: 7, name: "h", password: "o", email: "l">, #<User id: 8, name: "u", password: "u", email: "n">, #<User id: 9, name: "s", password: "o", email: "s">, #<User id: 10, name: "sin", password: "sin", email: "sin">, ...]>
+irb(main):002:0> users = User.all
+=> #<ActiveRecord::Relation [#<User id: 1, name: "Erick", password: "123", email: "erick@gmail.com">, #<User id: 2, name: "Esme", password: "456", email: "esme@gmail.com">, #<User id: 3, name: "Fausto", password: "789", email: "fausto@gmail.com">, #<User id: 4, name: "0", password: "0", email: "0">, #<User id: 5, name: "1", password: "0", email: "0">, #<User id: 6, name: "0", password: "1", email: "0">, #<User id: 7, name: "h", password: "o", email: "l">, #<User id: 8, name: "u", password: "u", email: "n">, #<User id: 9, name: "s", password: "o", email: "s">, #<User id: 10, name: "sin", password: "sin", email: "sin">, ...]>
+irb(main):003:0> exit
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ ruby flight.rb
+
+
+********************************
+      Bienvenido a Maratón     
+********************************
+Escoje una opción:
+1. Registrarse
+2. Ver Scores
+3. Jugar
+4. Salir
+
+Si aún note has registrado, tendrás que hacerlo para poder jugar
+
+
+1
+"1"
+
+
+********************************
+      Registro de usuario    
+********************************
+ingresa tu Nombre
+bwk
+Ingresa tu email
+lol
+Ingresa tu password
+333
+en el view en coin ek signup metodo
+bwk
+lol
+333
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake console
+irb(main):001:0> users = User.all
+=> #<ActiveRecord::Relation [#<User id: 1, name: "Erick", password: "123", email: "erick@gmail.com">, #<User id: 2, name: "Esme", password: "456", email: "esme@gmail.com">, #<User id: 3, name: "Fausto", password: "789", email: "fausto@gmail.com">, #<User id: 4, name: "0", password: "0", email: "0">, #<User id: 5, name: "1", password: "0", email: "0">, #<User id: 6, name: "0", password: "1", email: "0">, #<User id: 7, name: "h", password: "o", email: "l">, #<User id: 8, name: "u", password: "u", email: "n">, #<User id: 9, name: "s", password: "o", email: "s">, #<User id: 10, name: "sin", password: "sin", email: "sin">, ...]>
+irb(main):002:0> exit
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ ruby flight.rb
+/Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/config/application.rb:5:in `require_relative': /Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/app/controllers/controller.rb:55: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/config/application.rb:5:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ ruby flight.rb
+/Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/config/application.rb:5:in `require_relative': /Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/app/controllers/controller.rb:56: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /Users/codea_mac_09/Desktop/fase01_2vuelta/fase01_dia18_martes_poo/maraton_active records/maraton/config/application.rb:5:in `<top (required)>'
+	from flight.rb:1:in `require_relative'
+	from flight.rb:1:in `<main>'
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ ruby flight.rb
+
+
+********************************
+      Bienvenido a Maratón     
+********************************
+Escoje una opción:
+1. Registrarse
+2. Ver Scores
+3. Jugar
+4. Salir
+
+Si aún note has registrado, tendrás que hacerlo para poder jugar
+
+
+1
+"1"
+
+
+********************************
+      Registro de usuario    
+********************************
+ingresa tu Nombre
+estamos
+Ingresa tu email
+armados
+Ingresa tu password
+dos dos
+en el view en coin ek signup metodo
+estamos
+armados
+dos dos
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake console
+irb(main):001:0> user = User.all
+=> #<ActiveRecord::Relation [#<User id: 1, name: "Erick", password: "123", email: "erick@gmail.com">, #<User id: 2, name: "Esme", password: "456", email: "esme@gmail.com">, #<User id: 3, name: "Fausto", password: "789", email: "fausto@gmail.com">, #<User id: 4, name: "0", password: "0", email: "0">, #<User id: 5, name: "1", password: "0", email: "0">, #<User id: 6, name: "0", password: "1", email: "0">, #<User id: 7, name: "h", password: "o", email: "l">, #<User id: 8, name: "u", password: "u", email: "n">, #<User id: 9, name: "s", password: "o", email: "s">, #<User id: 10, name: "sin", password: "sin", email: "sin">, ...]>
+irb(main):002:0> exit
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ ruby flight.rb
+
+
+********************************
+      Bienvenido a Maratón     
+********************************
+Escoje una opción:
+1. Registrarse
+2. Ver Scores
+3. Jugar
+4. Salir
+
+Si aún note has registrado, tendrás que hacerlo para poder jugar
+
+
+1
+"1"
+
+
+********************************
+      Registro de usuario    
+********************************
+ingresa tu Nombre
+estamos
+Ingresa tu email
+armados
+Ingresa tu password
+dosod
+en el view en coin ek signup metodo
+estamos
+armados
+dosod
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake console
+irb(main):001:0> users = User.all
+=> #<ActiveRecord::Relation [#<User id: 1, name: "Erick", password: "123", email: "erick@gmail.com">, #<User id: 2, name: "Esme", password: "456", email: "esme@gmail.com">, #<User id: 3, name: "Fausto", password: "789", email: "fausto@gmail.com">, #<User id: 4, name: "0", password: "0", email: "0">, #<User id: 5, name: "1", password: "0", email: "0">, #<User id: 6, name: "0", password: "1", email: "0">, #<User id: 7, name: "h", password: "o", email: "l">, #<User id: 8, name: "u", password: "u", email: "n">, #<User id: 9, name: "s", password: "o", email: "s">, #<User id: 10, name: "sin", password: "sin", email: "sin">, ...]>
+irb(main):002:0> exit
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake console
+irb(main):001:0> exit
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ ruby flight.rb
+
+
+********************************
+      Bienvenido a Maratón     
+********************************
+Escoje una opción:
+1. Registrarse
+2. Ver Scores
+3. Jugar
+4. Salir
+
+Si aún note has registrado, tendrás que hacerlo para poder jugar
+
+
+1
+"1"
+
+
+********************************
+      Registro de usuario    
+********************************
+ingresa tu Nombre
+estamos
+Ingresa tu email
+armados
+Ingresa tu password
+dosdos
+en el view en coin ek signup metodo
+estamos
+armados
+dosdos
+CodeaCamp09s-Mac-mini:maraton codea_mac_09$ rake console
+irb(main):001:0> user = User.all
+=> #<ActiveRecord::Relation [#<User id: 1, name: "Erick", password: "123", email: "erick@gmail.com">, #<User id: 2, name: "Esme", password: "456", email: "esme@gmail.com">, #<User id: 3, name: "Fausto", password: "789", email: "fausto@gmail.com">, #<User id: 4, name: "0", password: "0", email: "0">, #<User id: 5, name: "1", password: "0", email: "0">, #<User id: 6, name: "0", password: "1", email: "0">, #<User id: 7, name: "h", password: "o", email: "l">, #<User id: 8, name: "u", password: "u", email: "n">, #<User id: 9, name: "s", password: "o", email: "s">, #<User id: 10, name: "sin", password: "sin", email: "sin">, ...]>
+irb(main):002:0> exit
